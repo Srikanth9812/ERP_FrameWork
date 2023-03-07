@@ -9,7 +9,7 @@ public class PropertyFileUtil {
 public static String getValueForKey(String key) throws Throwable
 {
 	Properties config=new Properties();
-	config.load(new FileInputStream("E:\\OJTLiveProject\\ERP_Hywork\\PropertyFile\\Environment.properties"));
+	config.load(new FileInputStream("C:\\Users\\HOME\\git\\ERP_Hywork\\ERP_Hywork\\PropertyFile\\Environment.properties"));
 	return config.getProperty(key);
 			
 }
